@@ -1,0 +1,23 @@
+{
+  "name": "biome-check-write-repro",
+  "version": "1.0.0",
+  "description": "Minimal reproduction for a Biome bug where `biome check --write` always reports \"Fixed 1 file\" on any HTML file with a `<style>` tag, even though the file doesn't actually change.",
+  "scripts": {
+    "repro": "biome check --write index.html && biome check --write index.html && biome check index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mynameistito/biome-check-write-repro.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/mynameistito/biome-check-write-repro/issues"
+  },
+  "homepage": "https://github.com/mynameistito/biome-check-write-repro#readme",
+  "devDependencies": {
+    "@biomejs/biome": "^2.4.9"
+  }
+}
