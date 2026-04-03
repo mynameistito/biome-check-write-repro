@@ -6,6 +6,8 @@ doesn't actually change.
 
 In relation to: https://github.com/biomejs/biome/issues/9690
 
+Issues still persist as of latest commit `biome@2.4.10`
+
 ## Reproduce
 
 ```bash
