@@ -4,6 +4,8 @@ Minimal reproduction for a Biome bug where `biome check --write` always reports
 "Fixed 1 file" on any HTML file with a `<style>` tag, even though the file
 doesn't actually change.
 
+In relation to: https://github.com/biomejs/biome/issues/9690
+
 ## Reproduce
 
 ```bash
